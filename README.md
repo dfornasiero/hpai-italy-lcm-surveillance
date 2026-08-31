@@ -15,7 +15,7 @@ Environmental sampling strategies showed higher sensitivity than bird-based samp
 
 ------------------------------------------------------------------------
 
-# Spatiotemporal Dynamics of HPAI in Italy (2016-2023)
+# Overview
 
 This repository contains the code used to fit Bayesian latent class models (LCMs) for the analysis of Italian avian influenza surveillance data.
 Three models were developed to jointly estimate the latent infection status of sampled wild birds and the diagnostic performance of different sample types, in the absence of a perfect reference test. Separate models were fitted for three molecular targets:
