@@ -22,7 +22,17 @@ Three models were developed to jointly estimate the latent infection status of s
 - **Influenza A matrix (M) gene**
 - **H5 subtype**
 - **H5 highly pathogenic avian influenza (H5 HPAI)**
-An additional model was developed for the **M-gene analysis at the field-visit level**, with the latent state representing whether a surveillance visit was contaminated for influenza A virus. This model was used to evaluate the ability of the different bird- and environmental-based surveillance strategies to detect virus circulation at a sampled site and visit.
 
+An additional model was developed for the **M-gene analysis at the field-visit level**, with the latent state representing whether a surveillance visit was contaminated with influenza A virus. This model was used to evaluate the ability of the different bird- and environmental-based surveillance strategies to detect virus circulation at a sampled site and visit.
 
+Analyses are implemented in **Stan** and run from **R**.
+
+## Repository contents
+
+```text
+.
+├── models/           # Stan code for the latent class models
+├── model_fitting/    # R scripts for model fitting
+├── plots/            # R scripts used to process model outputs and produce figures
+└── README.md
 ---
