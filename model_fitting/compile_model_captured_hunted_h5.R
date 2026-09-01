@@ -64,4 +64,5 @@ fit <- model$sample(data = data_list,
                     iter_sampling = 2000,
                     parallel_chains = 4,
                     seed = 890)
-
+draws <- fit$draws()
+saveRDS(draws, "./draws_captured_hunted_h5.RDS")
