@@ -82,4 +82,5 @@ fit <- model$sample(data = data_list,
                     iter_sampling = 2000,
                     parallel_chains = 4,
                     seed = 777)
-
+draws <- fit$draws()
+saveRDS(draws, "./draws_surveillance_mgene.RDS")
